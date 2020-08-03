@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+body {
+  background-color: #2c3e50;
+  color: #95a5a6;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 19;
+  background-color: rgb(73, 79, 82);
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  min-height: 300px;
+  width: 50vw;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .8);
+  display: inline-block;
+  margin: 10px;
+}
+
+.card button {
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  border: none;
+  width: 80%;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #3478DB;
+  color: #fff;
+  cursor: pointer;
+}
+
+.p404 {
+  height: 100vh;
+  background-color: #2c3e50;
+  padding: 0;
+  margin: 0;
+}
+
+.p404 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p404 h1.error {
+  color: #95a5a6;
+  font-size: 140px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.p404 p {
+  color: #bdc3c7;
+  margin-top: 0;
+  letter-spacing: .3em;
+  font-size: 20px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.p404 h1.meme {
+  display: inline-block;
+  margin: -50px;
+  color: #fff;
+  -webkit-text-stroke: 2.2px rgba(0,0,0,0.8);
+  text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.8);
+  font-size: 34px;
+  font-family: 'Poppins', sans-serif;
+}
